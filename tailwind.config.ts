@@ -23,11 +23,17 @@ export default {
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
           950: 'rgb(var(--tw-color-primary-950) / <alpha-value>)',
         },
+        secondary: '#ecf0f1',
+        grey: '#f3f5f9',
+        darkish: '#697683',
         dark: '#222222',
         success: '#00C853',
         warning: '#FFD600',
         danger: '#D50000',
         info: '#00B0FF',
+      },
+      boxShadow: {
+        custom: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
       },
       keyframes: {
         flicker: {
