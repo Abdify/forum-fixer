@@ -32,6 +32,9 @@ export default {
         danger: '#D50000',
         info: '#00B0FF',
       },
+      boxShadow: {
+        custom: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+      },
       keyframes: {
         flicker: {
           '0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%': {
