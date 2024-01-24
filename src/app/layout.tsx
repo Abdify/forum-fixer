@@ -2,6 +2,9 @@ import { Metadata } from 'next';
 import * as React from 'react';
 
 import '@/styles/globals.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+
+import Footer from '@/components/Footer';
 
 import { siteConfig } from '@/constant/config';
 
@@ -54,7 +57,11 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Footer Component  */}
+        <Footer />
+      </body>
     </html>
   );
 }
