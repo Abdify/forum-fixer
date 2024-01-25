@@ -1,0 +1,125 @@
+.form .social-login {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.form .social-login button {
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #166534;
+  border: 1px solid #86efac;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form .social-login button:hover {
+  color: #22c55e;
+  border-color: #22c55e;
+}
+
+.form .divider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form .divider .line {
+  height: 1px;
+  width: 100%;
+  background: #1d1d1d;
+  opacity: 0.2;
+  margin: 30px 0 16px;
+}
+
+.form form label {
+  color: #1d1d1d;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+  display: block;
+  margin-top: 12px;
+}
+
+.form form .custome-input {
+  position: relative;
+}
+
+.form form .custome-input input {
+  color: #1d1d1d;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  height: 46px;
+  letter-spacing: 0.03rem;
+  border: 1px solid #1d1d1d;
+  background: transparent;
+  outline: none;
+  border-radius: 8px;
+  text-indent: 20px;
+  margin-top: 6px;
+  transition: all 0.3s ease;
+}
+
+.form form .custome-input input:focus {
+  border-color: #16a34a;
+}
+
+.form form .custome-input i {
+  position: absolute;
+  font-size: 28px;
+  right: 10px;
+  top: 14px;
+  transition: all 0.3s ease;
+}
+
+.form form .custome-input input:focus + i {
+  color: #16a34a;
+}
+
+.form form .login {
+  width: 100%;
+  margin-top: 30px;
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  line-height: 50px;
+  font-size: 18px;
+  letter-spacing: 0.025em;
+  cursor: pointer;
+  font-weight: 800;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.form form .login:hover {
+  background: #16a34a;
+}
+
+.form .links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.form .links a {
+  color: #22c55e;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  text-underline-offset: 6px;
+  text-decoration-color: #22c55e;
+}
+
+.form .links a:hover {
+  text-decoration: underline;
+}

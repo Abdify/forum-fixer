@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import * as React from 'react';
 import { RiAlarmWarningFill } from 'react-icons/ri';
+
+import Button from '@/components/buttons/Button';
 
 export const metadata: Metadata = {
   title: 'Not Found',
@@ -15,8 +18,10 @@ export default function NotFound() {
             size={60}
             className='drop-shadow-glow animate-flicker text-red-500'
           />
-          <h1 className='mt-8 text-4xl md:text-6xl'>Page Not Found</h1>
-          <a href='/'>Back to home</a>
+          <h1 className='mb-5 mt-8 text-4xl md:text-6xl'>Page Not Found</h1>
+          <Button>
+            <Link href='/'>Back to home</Link>
+          </Button>
         </div>
       </section>
     </main>
